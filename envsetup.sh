@@ -194,7 +194,7 @@ function setpaths()
     case $ARCH in
         arm)
     if [ "$LINARO_GCC_VERSION" = "4.7" ]; then
-            toolchaindir=arm/LINARO-KERNEL/bin
+            toolchaindir=arm/Lk/bin
             
     if [ "$LINARO_GCC_VERSION" = "4.8" ]; then
             toolchaindir=arm/arm-eabi-$targetgccversionarm/bin
